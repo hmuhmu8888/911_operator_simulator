@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8153132645557536586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3681151059005290259}
+  - component: {fileID: 2890991304766696536}
+  m_Layer: 0
+  m_Name: GameAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3681151059005290259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153132645557536586}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.60074, y: -0.68588, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2890991304766696536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153132645557536586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c37506d6c26a0484ba82fb1959f87690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameAssets
+  OnPatrol: {fileID: 126649140388780084, guid: cb225b5f27004754ebd418690f465d5d, type: 3}
+  WaitOrder: {fileID: 710652371559907727, guid: d412947252ea2484e9ba46d1ba3e1910, type: 3}
+  OnRoute: {fileID: 8041020389166738375, guid: 595eeda4b15e9834bb9ed77b02fee644, type: 3}
+  OnScene: {fileID: 2991411517731990331, guid: b784bbe4b91b4ab45bcf304131bf9005, type: 3}
+  BackToPatrol: {fileID: -4571828015118065507, guid: e9f50e7275948c749a493328c3d93ec4, type: 3}
+  FindNewPatrol: {fileID: -4839003608816278190, guid: c4871e63767671b40b00b56fc8d70e28, type: 3}
+  PoliceBike: {fileID: 1226189319682070019, guid: 5750366c079ccdf4aba093807dedd0e3, type: 3}
+  PoliceCar: {fileID: -1001419927693318863, guid: 4b86bff4d7f148b4fb1fff309befdc38, type: 3}
+  PoliceHelicopter: {fileID: 7860199453388099663, guid: 15d55487a2cb2814b90343376a687933, type: 3}
+  MedicalCar: {fileID: -7981744113020079732, guid: 112a0b815df4e0542913a4bc8f4b00f5, type: 3}
+  Ambulance: {fileID: 5175811776235232576, guid: cedfc66604dc95b4b9d45b61136cabd8, type: 3}
+  MedicalHeicopter: {fileID: -7437291352551446144, guid: 381d94a378362794295c409ea90dbe4c, type: 3}
+  FirePickupTruck: {fileID: -6236219312679835376, guid: 397e104aca69f274ebf1212e3e3c2d6e, type: 3}
+  FireTruck: {fileID: 2232419940937260929, guid: d6c5861efbb11bb438299af706287aac, type: 3}
+  FiremanHelicopter: {fileID: -1468092359841656640, guid: cba3f0e200532894d8afd76fbf8c84ac, type: 3}
+  Police: {fileID: 3887636849544510565, guid: 6307beb98f11d1a42b92869b762799b3, type: 3}
+  Medical: {fileID: 2235798715534401886, guid: 4e548490729d2ed47b4b446df2b33e34, type: 3}
+  Fire: {fileID: -7756066342050707131, guid: 487fe27cb0117074cb1bca0cbf6c2c89, type: 3}
